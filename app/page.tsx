@@ -11,19 +11,20 @@ import AppBar from '@/components/AppBar';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 selection:bg-euro-orange-500 selection:text-white relative overflow-hidden">
+    <div className="min-h-screen bg-slate-50 text-slate-800 selection:bg-euro-orange-500 selection:text-white relative">
       {/* Decorative Background Glows */}
-      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-100 rounded-full blur-[120px] opacity-40 z-0 pointer-events-none"></div>
-      <div className="absolute -bottom-20 -left-20 w-[500px] h-[500px] bg-orange-100 rounded-full blur-[100px] opacity-30 z-0 pointer-events-none"></div>
-      
-      <AppBar />
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-100 rounded-full blur-[120px] opacity-40"></div>
+        <div className="absolute -bottom-20 -left-20 w-[500px] h-[500px] bg-orange-100 rounded-full blur-[100px] opacity-30"></div>
+      </div>
+      <AppBar/>
       <main>
         <Hero />
         <About />
         <Services />
         <Industries />
         <Stats />
-       <Testimonials />
+        <Testimonials />
         <CTA />
         <Contact />
       </main>

@@ -25,7 +25,7 @@ export default function Industries() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         <div className="bg-slate-100 p-8 lg:p-16 rounded-3xl border border-dashed border-slate-300">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-4">Industries We Serve</h2>
+            <h2 className="text-xs font-bold tracking-wider text-euro-orange-500 uppercase mb-4">Industries We Serve</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
               Connecting Talent Across Diverse Sectors
             </h3>

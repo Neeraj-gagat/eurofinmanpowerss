@@ -64,8 +64,8 @@ export default function Services() {
     <section id="services" className="py-14 bg-transparent">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-4">Our Services</h2>
-          <h3 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
+          <h2 className="text-xs font-bold tracking-wider text-euro-orange-500 uppercase mb-4">Our Services</h2>
+          <h3 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
             Empowering Careers, Building Businesses Through Expert Solutions
           </h3>
         </div>

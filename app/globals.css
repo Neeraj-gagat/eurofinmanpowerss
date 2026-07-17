@@ -48,8 +48,10 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
   @apply text-slate-800 antialiased bg-slate-50;
+  overflow-x: hidden;
 }
