@@ -6,7 +6,7 @@ import Stats from '../components/Stats';
 import Testimonials from '../components/Testimonials';
 import CTA from '../components/CTA';
 import Contact from '../components/Contact';
-// import Footer from './components/Footer';
+import Footer from '../components/Footer';
 import AppBar from '@/components/AppBar';
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
         <CTA />
         <Contact />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
