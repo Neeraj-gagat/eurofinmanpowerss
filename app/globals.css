@@ -1,26 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-euro-blue-50: #eef2fb;
+  --color-euro-blue-100: #dce6f6;
+  --color-euro-blue-200: #c1d3f0;
+  --color-euro-blue-300: #9cb9e8;
+  --color-euro-blue-400: #7196de;
+  --color-euro-blue-500: #5076d3;
+  --color-euro-blue-600: #3b5bc6;
+  --color-euro-blue-700: #2f47b2;
+  --color-euro-blue-800: #293d93;
+  --color-euro-blue-900: #123D96;
+  --color-euro-blue-950: #15225c;
+  
+  --color-euro-orange-50: #fff5eb;
+  --color-euro-orange-100: #ffead6;
+  --color-euro-orange-200: #ffd4ad;
+  --color-euro-orange-300: #ffb87d;
+  --color-euro-orange-400: #ff9144;
+  --color-euro-orange-500: #FF6A00;
+  --color-euro-orange-600: #f05200;
+  --color-euro-orange-700: #c73e02;
+  --color-euro-orange-800: #9d310a;
+  --color-euro-orange-900: #7f2b0b;
+
+  --color-euro-gray-50: #f9fafb;
+  --color-euro-gray-100: #f3f4f6;
+  --color-euro-gray-200: #e5e7eb;
+  --color-euro-gray-800: #1f2937;
+  --color-euro-gray-900: #111827;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm;
+  }
+  .glass-dark {
+    @apply bg-euro-blue-950/80 backdrop-blur-md border border-white/10;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-euro-blue-900 to-euro-blue-600;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
+  @apply text-slate-800 antialiased bg-slate-50;
+}
