@@ -40,46 +40,6 @@ export default function Contact() {
   }
 };
 
-//   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-//   event.preventDefault();
-
-//   setResult("Sending...");
-
-//   const formData = new FormData(event.currentTarget);
-
-//   formData.append(
-//     "access_key",
-//     "12af5d70-3b1d-43e3-abfa-f512458104bc"
-//   );
-
-//   const response = await fetch(
-//     "https://api.web3forms.com/submit",
-//     {
-//       method: "POST",
-//       body: formData,
-//     }
-//   );
-
-//   const data = await response.json();
-
-//   if (data.success) {
-//     setResult("Message sent successfully!");
-//     (event.currentTarget as HTMLFormElement).reset();
-//   } else {
-//     console.log(data);
-//     setResult(data.message);
-//   }
-// };
-
-    // const response = await fetch("https://api.web3forms.com/submit", {
-    //   method: "POST",
-    //   body: formData
-    // });
-
-    // const data = await response.json();
-    // setResult(data.success ? "Success!" : "Error");
-    // };
-
   return (
     <section id="contact" className="py-14 bg-transparent">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -107,7 +67,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Email</div>
-                  <a href="mailto:info@eurofinmanpowers.eu" className="text-slate-700 font-medium hover:text-euro-blue-900 transition-colors">info@eurofinmanpowers.eu</a>
+                  <a href="mailto:careers@eurofinmanpowerss.lu" className="text-slate-700 font-medium hover:text-euro-blue-900 transition-colors">careers@eurofinmanpowerss.lu</a>
                 </div>
               </div>
               
